@@ -19,7 +19,19 @@ export default Controller.extend({
           caption: i18n.t('forms.application.sitemap.index.caption'),
           title: i18n.t('forms.application.sitemap.index.title'),
           children: null
-        }, 
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.test-project.caption'),
+          title: i18n.t('forms.application.sitemap.test-project.title'),
+          children: [{
+            link: 'i-i-s-test-project-seller-l',
+            caption: i18n.t('forms.application.sitemap.test-project.i-i-s-test-project-seller-l.caption'),
+            title: i18n.t('forms.application.sitemap.test-project.i-i-s-test-project-seller-l.title'),
+            icon: 'suitcase',
+            children: null
+          }]
+        }
       ]
     };
   }),

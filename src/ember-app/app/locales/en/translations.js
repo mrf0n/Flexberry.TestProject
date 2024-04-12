@@ -13,7 +13,7 @@ $.extend(true, translations, {
     'i-i-s-test-project-seller': IISTestProjectSellerModel
   },
 
-  'application-name': '',
+  'application-name': 'Test project',
 
   forms: {
     loading: {
@@ -52,7 +52,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': '',
+        'application-name': 'Test project',
         'application-version': {
           caption: 'Addon version {{version}}',
           title: 'It is version of ember-flexberry addon, which uses in this dummy application ' +
@@ -63,8 +63,8 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: '',
-          title: ''
+          caption: 'Test project',
+          title: 'Test project'
         },
         'application-version': {
           caption: 'Addon version {{version}}',
@@ -76,7 +76,14 @@ $.extend(true, translations, {
           caption: 'Home',
           title: ''
         },
-
+        'test-project': {
+          caption: 'TestProject',
+          title: 'TestProject',
+          'i-i-s-test-project-seller-l': {
+            caption: 'Seller',
+            title: ''
+          }
+        }
       }
     },
 

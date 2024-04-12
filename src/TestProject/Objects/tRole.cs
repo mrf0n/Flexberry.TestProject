@@ -20,7 +20,7 @@ namespace IIS.TestProject
 
 
     /// <summary>
-    /// tRole.
+    /// T role.
     /// </summary>
     // *** Start programmer edit section *** (tRole CustomAttributes)
 
