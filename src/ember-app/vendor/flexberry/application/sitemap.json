@@ -14,6 +14,21 @@
           "caption": "Seller",
           "title": "",
           "children": null
+        },
+        {
+          "link": null,
+          "menuName": "администрация",
+          "caption": "Администрация",
+          "title": "Администрация",
+          "children": [
+            {
+              "link": "i-i-s-test-project-seller-l",
+              "menuName": null,
+              "caption": "SellerL",
+              "title": "Seller L",
+              "children": null
+            }
+          ]
         }
       ]
     }

@@ -82,6 +82,14 @@ $.extend(true, translations, {
           'i-i-s-test-project-seller-l': {
             caption: 'Seller',
             title: ''
+          },
+          администрация: {
+            caption: 'Администрация',
+            title: 'Администрация',
+            'i-i-s-test-project-seller-l': {
+              caption: 'SellerL',
+              title: 'Seller L'
+            }
           }
         }
       }
