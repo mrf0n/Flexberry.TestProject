@@ -16,7 +16,7 @@
         "Build": false,
         "GitClone": false,
         "GitPush": false,
-        "GhPagesPush": false,
+        "GhPagesPush": true,
         "EmberMetadata": false
       },
       "ApacheCordova": {
