@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISTestProjectSeller",
+  "modelName": "i-i-s-test-project-seller",
+  "className": "Seller",
+  "nameSpace": "IIS.TestProject",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "role",
+      "type": "i-i-s-test-project-t-role",
+      "flexberryType": "tRole",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "фИО",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "SellerE",
+      "modelName": "i-i-s-test-project-seller",
+      "attrs": [
+        {
+          "name": "role",
+          "caption": "Роль",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "SellerL",
+      "modelName": "i-i-s-test-project-seller",
+      "attrs": [
+        {
+          "name": "role",
+          "caption": "Роль",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

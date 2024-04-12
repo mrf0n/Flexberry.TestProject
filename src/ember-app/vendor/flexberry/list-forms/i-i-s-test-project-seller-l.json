@@ -1,0 +1,15 @@
+﻿{
+  "newForm": null,
+  "editForm": null,
+  "external": false,
+  "caption": "",
+  "name": "IISTestProjectSellerL",
+  "className": "SellerL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-project-seller",
+      "modelProjection": "SellerL"
+    }
+  ]
+}
