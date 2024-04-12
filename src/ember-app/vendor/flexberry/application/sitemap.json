@@ -9,13 +9,6 @@
       "title": "TestProject",
       "children": [
         {
-          "link": "i-i-s-test-project-seller-l",
-          "menuName": null,
-          "caption": "Seller",
-          "title": "",
-          "children": null
-        },
-        {
           "link": null,
           "menuName": "администрация",
           "caption": "Администрация",

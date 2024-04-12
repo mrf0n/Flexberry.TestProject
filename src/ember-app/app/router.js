@@ -7,10 +7,10 @@ const Router = EmberRouter.extend({
 
 Router.map(function () {
   this.route('i-i-s-test-project-seller-l');
-  this.route('null',
-  { path: 'null/:id' });
-  this.route('null.new',
-  { path: 'null/new' });
+  this.route('i-i-s-test-project-seller-e',
+  { path: 'i-i-s-test-project-seller-e/:id' });
+  this.route('i-i-s-test-project-seller-e.new',
+  { path: 'i-i-s-test-project-seller-e/new' });
 });
 
 export default Router;
