@@ -1,5 +1,6 @@
 export default {
   caption: 'SellerE',
   'role-caption': 'Роль',
-  'фИО-caption': 'ФИО'
+  'фИО-caption': 'ФИО',
+  'shop-caption': ''
 };

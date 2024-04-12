@@ -35,7 +35,10 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('SellerE', 'i-i-s-test-project-seller', {
     role: attr('Роль', { index: 0 }),
-    фИО: attr('ФИО', { index: 1 })
+    фИО: attr('ФИО', { index: 1 }),
+    shop: belongsTo('i-i-s-test-project-shop', '', {
+
+    }, { index: 2, hidden: true })
   });
 
   modelClass.defineProjection('SellerL', 'i-i-s-test-project-seller', {

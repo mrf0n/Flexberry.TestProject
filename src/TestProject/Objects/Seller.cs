@@ -30,7 +30,9 @@ namespace IIS.TestProject
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("SellerE", new string[] {
             "Role as \'Роль\'",
-            "ФИО as \'ФИО\'"})]
+            "ФИО as \'ФИО\'",
+            "Shop"}, Hidden=new string[] {
+            "Shop"})]
     [View("SellerL", new string[] {
             "Role as \'Роль\'",
             "ФИО as \'ФИО\'"})]

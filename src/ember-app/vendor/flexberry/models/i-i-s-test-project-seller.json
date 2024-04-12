@@ -53,7 +53,22 @@
           "index": 1
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Shop",
+          "belongsTo": [],
+          "hidden": true,
+          "attrs": [],
+          "index": 2,
+          "type": "default",
+          "caption": "",
+          "name": "shop",
+          "relatedTo": "i-i-s-test-project-shop",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     },
     {
