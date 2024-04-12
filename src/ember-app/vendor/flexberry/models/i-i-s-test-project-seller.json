@@ -59,7 +59,7 @@
           "lookupValueField": null,
           "relationName": "Shop",
           "belongsTo": [],
-          "hidden": true,
+          "hidden": false,
           "attrs": [],
           "index": 2,
           "type": "default",

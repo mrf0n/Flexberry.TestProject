@@ -31,7 +31,6 @@ namespace IIS.TestProject
     [View("SellerE", new string[] {
             "Role as \'Роль\'",
             "ФИО as \'ФИО\'",
-            "Shop"}, Hidden=new string[] {
             "Shop"})]
     [View("SellerL", new string[] {
             "Role as \'Роль\'",

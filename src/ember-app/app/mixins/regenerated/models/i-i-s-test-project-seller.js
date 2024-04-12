@@ -38,7 +38,7 @@ export let defineProjections = function (modelClass) {
     фИО: attr('ФИО', { index: 1 }),
     shop: belongsTo('i-i-s-test-project-shop', '', {
 
-    }, { index: 2, hidden: true })
+    }, { index: 2 })
   });
 
   modelClass.defineProjection('SellerL', 'i-i-s-test-project-seller', {
