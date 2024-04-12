@@ -2,6 +2,7 @@ import $ from 'jquery';
 import EmberFlexberryTranslations from 'ember-flexberry/locales/en/translations';
 
 import IISTestProjectSellerLForm from './forms/i-i-s-test-project-seller-l';
+import IISTestProjectSellerEForm from './forms/i-i-s-test-project-seller-e';
 import IISTestProjectSellerModel from './models/i-i-s-test-project-seller';
 
 const translations = {};
@@ -87,7 +88,8 @@ $.extend(true, translations, {
       'delete-success-message': 'Object deleted',
       'delete-error-message-caption': 'Delete operation failed'
     },
-    'i-i-s-test-project-seller-l': IISTestProjectSellerLForm
+    'i-i-s-test-project-seller-l': IISTestProjectSellerLForm,
+    'i-i-s-test-project-seller-e': IISTestProjectSellerEForm
   },
 
 });

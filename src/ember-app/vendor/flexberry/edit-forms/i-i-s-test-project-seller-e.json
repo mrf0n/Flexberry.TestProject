@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "SellerE",
+  "name": "IISTestProjectSellerE",
+  "className": "SellerE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-project-seller",
+      "modelProjection": "SellerE"
+    }
+  ]
+}
