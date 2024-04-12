@@ -11,6 +11,11 @@ Router.map(function () {
   { path: 'i-i-s-test-project-seller-e/:id' });
   this.route('i-i-s-test-project-seller-e.new',
   { path: 'i-i-s-test-project-seller-e/new' });
+  this.route('i-i-s-test-project-shop-l');
+  this.route('i-i-s-test-project-shop-e',
+  { path: 'i-i-s-test-project-shop-e/:id' });
+  this.route('i-i-s-test-project-shop-e.new',
+  { path: 'i-i-s-test-project-shop-e/new' });
 });
 
 export default Router;

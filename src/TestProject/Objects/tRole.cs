@@ -12,6 +12,7 @@ namespace IIS.TestProject
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -28,14 +29,22 @@ namespace IIS.TestProject
     public enum tRole
     {
         
+        /// <summary>
+        /// Руководитель.
+        /// </summary>
         // *** Start programmer edit section *** (tRole.Manager CustomAttributes)
 
         // *** End programmer edit section *** (tRole.Manager CustomAttributes)
+        [Caption("Руководитель")]
         Manager,
         
+        /// <summary>
+        /// Помощник.
+        /// </summary>
         // *** Start programmer edit section *** (tRole.Assistant CustomAttributes)
 
         // *** End programmer edit section *** (tRole.Assistant CustomAttributes)
+        [Caption("Помощник")]
         Assistant,
     }
 }

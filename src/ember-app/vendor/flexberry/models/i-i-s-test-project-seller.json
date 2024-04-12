@@ -25,7 +25,15 @@
       "ordered": false
     }
   ],
-  "belongsTo": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "shop",
+      "relatedTo": "i-i-s-test-project-shop",
+      "inverse": "sellers"
+    }
+  ],
   "hasMany": [],
   "projections": [
     {

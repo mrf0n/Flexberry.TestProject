@@ -1,6 +1,6 @@
 import { createEnum } from 'ember-flexberry-data/utils/enum-functions';
 
 export default createEnum({
-  Manager: '',
-  Assistant: ''
+  Manager: 'Руководитель',
+  Assistant: 'Помощник'
 });

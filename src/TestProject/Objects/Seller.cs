@@ -41,6 +41,8 @@ namespace IIS.TestProject
         
         private IIS.TestProject.tRole fRole;
         
+        private IIS.TestProject.Shop fShop;
+        
         // *** Start programmer edit section *** (Seller CustomMembers)
 
         // *** End programmer edit section *** (Seller CustomMembers)
@@ -110,6 +112,41 @@ namespace IIS.TestProject
         }
         
         /// <summary>
+        /// мастеровая ссылка на шапку IIS.TestProject.Shop.
+        /// </summary>
+        // *** Start programmer edit section *** (Seller.Shop CustomAttributes)
+
+        // *** End programmer edit section *** (Seller.Shop CustomAttributes)
+        [Agregator()]
+        [NotNull()]
+        [PropertyStorage(new string[] {
+                "Shop"})]
+        public virtual IIS.TestProject.Shop Shop
+        {
+            get
+            {
+                // *** Start programmer edit section *** (Seller.Shop Get start)
+
+                // *** End programmer edit section *** (Seller.Shop Get start)
+                IIS.TestProject.Shop result = this.fShop;
+                // *** Start programmer edit section *** (Seller.Shop Get end)
+
+                // *** End programmer edit section *** (Seller.Shop Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (Seller.Shop Set start)
+
+                // *** End programmer edit section *** (Seller.Shop Set start)
+                this.fShop = value;
+                // *** Start programmer edit section *** (Seller.Shop Set end)
+
+                // *** End programmer edit section *** (Seller.Shop Set end)
+            }
+        }
+        
+        /// <summary>
         /// Class views container.
         /// </summary>
         public class Views
@@ -136,6 +173,48 @@ namespace IIS.TestProject
                     return ICSSoft.STORMNET.Information.GetView("SellerL", typeof(IIS.TestProject.Seller));
                 }
             }
+        }
+    }
+    
+    /// <summary>
+    /// Detail array of Seller.
+    /// </summary>
+    // *** Start programmer edit section *** (DetailArrayDetailArrayOfSeller CustomAttributes)
+
+    // *** End programmer edit section *** (DetailArrayDetailArrayOfSeller CustomAttributes)
+    public class DetailArrayOfSeller : ICSSoft.STORMNET.DetailArray
+    {
+        
+        // *** Start programmer edit section *** (IIS.TestProject.DetailArrayOfSeller members)
+
+        // *** End programmer edit section *** (IIS.TestProject.DetailArrayOfSeller members)
+
+        
+        /// <summary>
+        /// Construct detail array.
+        /// </summary>
+        /// <summary>
+        /// Returns object with type Seller by index.
+        /// </summary>
+        /// <summary>
+        /// Adds object with type Seller.
+        /// </summary>
+        public DetailArrayOfSeller(IIS.TestProject.Shop fShop) : 
+                base(typeof(Seller), ((ICSSoft.STORMNET.DataObject)(fShop)))
+        {
+        }
+        
+        public IIS.TestProject.Seller this[int index]
+        {
+            get
+            {
+                return ((IIS.TestProject.Seller)(this.ItemByIndex(index)));
+            }
+        }
+        
+        public virtual void Add(IIS.TestProject.Seller dataobject)
+        {
+            this.AddObject(((ICSSoft.STORMNET.DataObject)(dataobject)));
         }
     }
 }

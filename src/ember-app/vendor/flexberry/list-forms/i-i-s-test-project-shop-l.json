@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-test-project-shop-e",
+  "editForm": "i-i-s-test-project-shop-e",
+  "external": false,
+  "caption": "Список магазинов",
+  "name": "IISTestProjectShopL",
+  "className": "ShopL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-project-shop",
+      "modelProjection": "ShopL"
+    }
+  ]
+}

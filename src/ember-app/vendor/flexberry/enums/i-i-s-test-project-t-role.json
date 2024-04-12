@@ -2,7 +2,7 @@
   "nameSpace": "IIS.TestProject",
   "className": "tRole",
   "enumObjects": {
-    "Manager": "",
-    "Assistant": ""
+    "Manager": "Руководитель",
+    "Assistant": "Помощник"
   }
 }

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Магазин",
+  "name": "IISTestProjectShopE",
+  "className": "ShopE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-project-shop",
+      "modelProjection": "ShopE"
+    }
+  ]
+}

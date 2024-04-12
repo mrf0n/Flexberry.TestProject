@@ -23,6 +23,9 @@ export default {
     },
     фИО: {
       __caption__: 'ФИО'
+    },
+    shop: {
+      __caption__: 'shop'
     }
   }
 };

@@ -17,8 +17,15 @@
             {
               "link": "i-i-s-test-project-seller-l",
               "menuName": null,
-              "caption": "SellerL",
+              "caption": "Список продавцов",
               "title": "Seller L",
+              "children": null
+            },
+            {
+              "link": "i-i-s-test-project-shop-l",
+              "menuName": null,
+              "caption": "Список магазинов",
+              "title": "",
               "children": null
             }
           ]

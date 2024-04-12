@@ -26,7 +26,12 @@ export default Controller.extend({
               link: 'i-i-s-test-project-seller-l',
               caption: i18n.t('forms.application.sitemap.test-project.администрация.i-i-s-test-project-seller-l.caption'),
               title: i18n.t('forms.application.sitemap.test-project.администрация.i-i-s-test-project-seller-l.title'),
-              icon: 'briefcase',
+              icon: 'address card',
+              children: null
+            }, {
+              link: 'i-i-s-test-project-shop-l',
+              caption: i18n.t('forms.application.sitemap.test-project.администрация.i-i-s-test-project-shop-l.caption'),
+              title: i18n.t('forms.application.sitemap.test-project.администрация.i-i-s-test-project-shop-l.title'),
               children: null
             }]
           }]

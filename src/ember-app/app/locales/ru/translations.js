@@ -2,15 +2,19 @@ import $ from 'jquery';
 import EmberFlexberryTranslations from 'ember-flexberry/locales/ru/translations';
 
 import IISTestProjectSellerLForm from './forms/i-i-s-test-project-seller-l';
+import IISTestProjectShopLForm from './forms/i-i-s-test-project-shop-l';
 import IISTestProjectSellerEForm from './forms/i-i-s-test-project-seller-e';
+import IISTestProjectShopEForm from './forms/i-i-s-test-project-shop-e';
 import IISTestProjectSellerModel from './models/i-i-s-test-project-seller';
+import IISTestProjectShopModel from './models/i-i-s-test-project-shop';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
 
 $.extend(true, translations, {
   models: {
-    'i-i-s-test-project-seller': IISTestProjectSellerModel
+    'i-i-s-test-project-seller': IISTestProjectSellerModel,
+    'i-i-s-test-project-shop': IISTestProjectShopModel
   },
 
   'application-name': 'Test project',
@@ -85,6 +89,10 @@ $.extend(true, translations, {
             'i-i-s-test-project-seller-l': {
               caption: 'SellerL',
               title: 'Seller L'
+            },
+            'i-i-s-test-project-shop-l': {
+              caption: 'Список магазинов',
+              title: ''
             }
           },
           'i-i-s-test-project-seller-l': {
@@ -104,7 +112,9 @@ $.extend(true, translations, {
       'delete-error-message-caption': 'Ошибка удаления'
     },
     'i-i-s-test-project-seller-l': IISTestProjectSellerLForm,
-    'i-i-s-test-project-seller-e': IISTestProjectSellerEForm
+    'i-i-s-test-project-shop-l': IISTestProjectShopLForm,
+    'i-i-s-test-project-seller-e': IISTestProjectSellerEForm,
+    'i-i-s-test-project-shop-e': IISTestProjectShopEForm
   },
 
 });

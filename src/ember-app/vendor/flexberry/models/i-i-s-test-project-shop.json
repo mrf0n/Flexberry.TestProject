@@ -1,0 +1,89 @@
+﻿{
+  "name": "IISTestProjectShop",
+  "modelName": "i-i-s-test-project-shop",
+  "className": "Shop",
+  "nameSpace": "IIS.TestProject",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "adress",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "sellers",
+      "relatedTo": "i-i-s-test-project-seller",
+      "inverse": "shop"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ShopE",
+      "modelName": "i-i-s-test-project-shop",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Название",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "adress",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "SellerL",
+          "caption": "Продавцы",
+          "name": "sellers",
+          "relatedTo": "i-i-s-test-project-seller",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ShopL",
+      "modelName": "i-i-s-test-project-shop",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Название",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "adress",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
